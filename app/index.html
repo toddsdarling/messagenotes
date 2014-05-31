@@ -1,0 +1,83 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Message Notes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css css/vendor.css -->
+            <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+        <!-- bower:css -->
+
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) css/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+
+    </head>
+    <body>
+
+        <div class="hero-unit">
+        <div id="appNotes-success" data-alert class="alert-box success radius">
+          Your notes were sent!
+          <a href="#" class="close">&times;</a>
+        </div>
+        <div id="appNotes-error" data-alert class="alert-box warning radius">
+          There was an error, please try again.
+          <a href="#" class="close">&times;</a>
+        </div>        
+          <h1>Humility for Dummies</h1>
+          <div id="appNotes-staticNotes">
+            <p>
+                <h2>Key points:</h2>
+                <ul>
+                    <li>Jesus set aside his rank, rights, & respect when he submitted to death on a cross.</li>
+                    <li>Are you willing to sacrifice rights, respect and rank for a relationship with the people God has placed in your life?</li>
+                    <li>Submit to one another out of reverence for your Savior who submitted on your behalf.</li>
+                </ul>
+            </p>
+            <p>
+                <h2>Key verses:</h2>
+                <ul>
+                    <li><a href="https://bible.com/59/eph.5.21.esv">Ephesians 5:21</a></li>
+                    <li><a href="https://bible.com/59/php.2.3-11.esv">Philipians 2:3-11</a></li>
+                </ul>
+            </p>
+           </div>
+          <form id="notesForm">
+            <div id="appNotes-bground">
+                <textarea name="notes" id="notes"></textarea>
+            </div>
+            <div id="appNotes-email">              
+              <p>Please enter your email address and we will send your notes to you.</p>
+              <p><input type="text" id="email" name="email" /></p>
+              <input id="appNotes-notesSubmit" type="submit" value="Email" class="button" />
+              <!-- <a href="#" id="appNotes-emailbtn" class="button">Email</a> -->                
+            </div>
+            <a href="#" id="appNotes-sendbtn" class="button">Send my notes to me</a>
+            <input type="hidden" name="hiden" value =""/>
+          </form>
+        </div>
+
+
+
+        <!-- build:js js/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="scripts/jquery.autosize.min.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) js/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

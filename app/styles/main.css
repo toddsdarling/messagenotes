@@ -1,0 +1,113 @@
+body {
+    background-image:url('../img/site-background.jpg');
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
+
+a {
+    color:#93C34B;
+    text-decoration: underline
+}
+
+.hero-unit {
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color:#FFF;
+}
+
+h2 {
+    font-size:1.3rem;
+    color:#FFF;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#appNotes-email {
+    width:90%;
+}
+
+.appNotes-emailError {
+    margin: 0px;
+    padding: 0px;
+    font-size: .8rem;
+    font-weight: bold;
+    color: red;
+}
+
+#appNotes-success, #appNotes-error {
+    display:none;
+}
+
+#appNotes-success {
+    width:90%;
+    background-color:#93C34B;
+    font-size:1rem; 
+}
+
+#appNotes-bground {
+    background-image:url('../img/notebook.jpg');
+    width:90%;
+    box-sizing:border-box;
+    margin-bottom:20px;
+}
+
+#appNotes-sendbtn, #appNotes-emailbtn, #appNotes-notesSubmit {
+    background-color:#93C34B;
+}
+
+#appNotes-sendbtn:hover {
+    background-color:#999;
+}
+
+#appNotes-emailbtn:hover {
+    background-color:#999;
+}
+
+#appNotes-notesSubmit:hover {
+    background-color:#999;
+}
+
+textarea#notes {
+    height:300px;
+    line-height: 1.7rem;
+    font-size:17px;
+}
+
+input#email {
+    font-size:17px;
+}
+
+
+textarea {
+    border:none;
+    background:none;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    resize:none;
+    outline:none;
+}
+
+textarea:focus {
+    background:none;
+    outline:none;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;    
+}
+
